@@ -1,0 +1,60 @@
+body{
+    background-color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Hero{
+    background-color: #1F2937;
+    margin: 64px 62px;
+    height: 600px;
+}
+.head-text{
+    padding-left: 72px;
+    padding-top: 115px;
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+    
+}
+
+#below-text{
+    color: #4ADF86;
+}
+#support-text{
+    padding-left: 72px;
+    font-size: 28px;
+    color: #D5D4D8;
+}
+
+button{
+    background-color: #10B981;
+    color: white;
+    padding: 9px 17px;
+    margin-left: 72px;
+    border: none;
+    font-size:large ;
+    border-radius: 6px;
+}
+
+#seperation{
+    background-color: #2F3E53;
+    height: 4px;
+    margin-top: 30px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.passcode{
+    text-align: center;
+    background-color: #273549;
+    width: 241px;
+    height: 39px;
+    border-radius: 6px;
+    color: #55F991;
+    padding: 8px 20px;
+    font-size: x-large;
+}
+#two-codes{
+    display: flex;
+    justify-content: space-around;
+
+}
