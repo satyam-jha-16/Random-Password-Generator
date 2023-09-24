@@ -24,3 +24,12 @@ function generatePassword(){
     // console.log(passwordTwo)
     
 }
+
+passOne.addEventListener("click", function(){
+    const pass1 = passOne.textContent;
+    navigator.clipboard.writeText(pass1);
+})
+passTwo.addEventListener("click", function(){
+    const pass2 = passTwo.textContent;
+    navigator.clipboard.writeText(pass2);
+})
